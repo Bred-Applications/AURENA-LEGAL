@@ -122,7 +122,7 @@
     If your Strava connection is not working as expected, please first try:
   </p>
   <ul>
-    <li>Open Settings → Strava → Disconnect, then reconnect.</li>
+    <li>Open the app → Profile → Settings (gear icon) → tap <strong>Disconnect</strong> on the Strava row, then reconnect.</li>
     <li>Make sure your Strava account has at least three running activities in the last 90 days (we extend to 180 days if you have fewer).</li>
     <li>Confirm you authorized both <em>view activities</em> and <em>upload activities</em> when redirected to Strava.</li>
   </ul>
@@ -134,9 +134,10 @@
   <h2>Privacy and Data Requests</h2>
   <p>
     To exercise your rights under GDPR (access, rectification, erasure,
-    portability, objection), use Settings → Privacy in the app, or email
-    <a href="mailto:jb@bredapplications.com">jb@bredapplications.com</a>.
-    See the
+    portability, objection), use the app's settings — Profile → Settings →
+    <strong>Download My Data</strong> for a full export, or email
+    <a href="mailto:jb@bredapplications.com">jb@bredapplications.com</a>
+    for any other request. See the
     <a href="privacy.html">Privacy Policy</a> for full details, including
     our Strava integration policy.
   </p>
@@ -144,10 +145,16 @@
   <h2>Account Deletion</h2>
   <p>
     You can delete your AURENA account at any time from
-    Settings → Privacy → Delete account. Account deletion is immediate and
-    permanent and includes purging any cached Strava-derived data and
-    revoking AURENA's access at Strava on your behalf. You may also revoke
-    AURENA's Strava access independently from your
+    Profile → Settings → <strong>Delete Account</strong>. Deletion is
+    immediate and permanent and includes:
+  </p>
+  <ul>
+    <li>Revoking AURENA's access at Strava on your behalf via Strava's deauthorize endpoint.</li>
+    <li>Purging every cached Strava activity summary, upload record, and OAuth token from our database.</li>
+    <li>Removing your AURENA profile, runs, posts, friendships, club memberships, and all derived statistics.</li>
+  </ul>
+  <p>
+    You may also revoke AURENA's Strava access independently from your
     <a href="https://www.strava.com/settings/apps">Strava settings page</a>.
   </p>
 
