@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>AURENA — Support</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #fafafa;
+    --surface: #ffffff;
+    --text: #1a1a1a;
+    --text-muted: #555;
+    --accent: #0066ff;
+    --rule: #e5e5e5;
+    --max: 720px;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    font-size: 16px;
+    line-height: 1.65;
+    padding: 32px 20px 64px;
+  }
+  .wrap { max-width: var(--max); margin: 0 auto; }
+  header {
+    border-bottom: 1px solid var(--rule);
+    padding-bottom: 16px;
+    margin-bottom: 32px;
+  }
+  .brand {
+    font-family: 'Chakra Petch', monospace;
+    font-weight: 700;
+    letter-spacing: 4px;
+    font-size: 14px;
+    color: var(--accent);
+    text-transform: uppercase;
+  }
+  h1 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 1.2;
+    margin: 8px 0 4px;
+    letter-spacing: 0.5px;
+  }
+  h2 {
+    font-family: 'Chakra Petch', sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin: 36px 0 12px;
+  }
+  p { margin: 0 0 12px; }
+  ul { margin: 0 0 12px; padding-left: 22px; }
+  li { margin-bottom: 6px; }
+  a { color: var(--accent); }
+  .contact-card {
+    background: var(--surface);
+    border: 1px solid var(--rule);
+    border-left: 3px solid var(--accent);
+    padding: 20px 24px;
+    border-radius: 4px;
+    margin: 24px 0;
+  }
+  .contact-card a {
+    font-family: 'Chakra Petch', monospace;
+    font-weight: 600;
+    font-size: 18px;
+  }
+  footer {
+    margin-top: 48px;
+    padding-top: 16px;
+    border-top: 1px solid var(--rule);
+    font-size: 13px;
+    color: var(--text-muted);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root {
+      --bg: #0a0a0a;
+      --surface: #141414;
+      --text: #f0f0f0;
+      --text-muted: #999;
+      --accent: #4d8aff;
+      --rule: #2a2a2a;
+    }
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="brand">AURENA</div>
+    <h1>Support</h1>
+  </header>
+
+  <p>
+    AURENA is a competitive ranked-running app that pairs runners against
+    each other in real-time PvP races. If you have a question, feedback, or
+    a problem with your AURENA account or your Strava connection, we are
+    happy to help.
+  </p>
+
+  <div class="contact-card">
+    <h2 style="margin-top: 0;">Email Support</h2>
+    <p>
+      <a href="mailto:jb@bredapplications.com">jb@bredapplications.com</a>
+    </p>
+    <p style="margin-bottom: 0; color: var(--text-muted); font-size: 14px;">
+      We aim to respond within two business days.
+    </p>
+  </div>
+
+  <h2>Strava Connection Issues</h2>
+  <p>
+    If your Strava connection is not working as expected, please first try:
+  </p>
+  <ul>
+    <li>Open Settings → Strava → Disconnect, then reconnect.</li>
+    <li>Make sure your Strava account has at least three running activities in the last 90 days (we extend to 180 days if you have fewer).</li>
+    <li>Confirm you authorized both <em>view activities</em> and <em>upload activities</em> when redirected to Strava.</li>
+  </ul>
+  <p>
+    Still stuck? Email us at the address above with a short description and
+    your AURENA username and we will look into it.
+  </p>
+
+  <h2>Privacy and Data Requests</h2>
+  <p>
+    To exercise your rights under GDPR (access, rectification, erasure,
+    portability, objection), use Settings → Privacy in the app, or email
+    <a href="mailto:jb@bredapplications.com">jb@bredapplications.com</a>.
+    See the
+    <a href="privacy.html">Privacy Policy</a> for full details, including
+    our Strava integration policy.
+  </p>
+
+  <h2>Account Deletion</h2>
+  <p>
+    You can delete your AURENA account at any time from
+    Settings → Privacy → Delete account. Account deletion is immediate and
+    permanent and includes purging any cached Strava-derived data and
+    revoking AURENA's access at Strava on your behalf. You may also revoke
+    AURENA's Strava access independently from your
+    <a href="https://www.strava.com/settings/apps">Strava settings page</a>.
+  </p>
+
+  <footer>
+    Operated by Bred Applications · Doritshave 24, 6040 Egtved, Denmark · CVR 45915905<br>
+    See also: <a href="privacy.html">Privacy Policy</a> · <a href="terms.html">Terms of Service</a>
+  </footer>
+</div>
+</body>
+</html>
